@@ -1,0 +1,19 @@
+﻿<Window x:Class="Kaedei.Injection.WpfSample.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:wpfSample="clr-namespace:Kaedei.Injection.WpfSample"
+		Title="MainWindow" Height="350" Width="525">
+	<Window.Resources>
+		<wpfSample:MyViewModel x:Key="MyViewModel" />
+	</Window.Resources>
+	<Window.DataContext>
+		<Binding Source="{StaticResource MyViewModel}" />
+	</Window.DataContext>
+	<Grid Height="200" Width="300">
+		<StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center">
+			<TextBox Text="{Binding MyInput}" />
+			<Button Content="GO!" Margin="16"></Button>
+			<TextBlock Text="{Binding MyOutput}" />
+		</StackPanel>
+	</Grid>
+</Window>

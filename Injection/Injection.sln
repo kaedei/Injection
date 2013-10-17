@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaedei.Injection", "Kaedei.Injection\Kaedei.Injection.csproj", "{B80F4864-F229-4EBE-8BD5-D0F382B6EC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaedei.Injection.ConsoleSample", "Kaedei.Injection.ConsoleSample\Kaedei.Injection.ConsoleSample.csproj", "{66EC3A36-C512-40CD-AB9E-B1A21863CB31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaedei.Injection.WpfSample", "Kaedei.Injection.WpfSample\Kaedei.Injection.WpfSample.csproj", "{78DE236E-8948-4057-A2FE-74C35AD101DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B80F4864-F229-4EBE-8BD5-D0F382B6EC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80F4864-F229-4EBE-8BD5-D0F382B6EC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80F4864-F229-4EBE-8BD5-D0F382B6EC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80F4864-F229-4EBE-8BD5-D0F382B6EC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66EC3A36-C512-40CD-AB9E-B1A21863CB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EC3A36-C512-40CD-AB9E-B1A21863CB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EC3A36-C512-40CD-AB9E-B1A21863CB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EC3A36-C512-40CD-AB9E-B1A21863CB31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DE236E-8948-4057-A2FE-74C35AD101DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DE236E-8948-4057-A2FE-74C35AD101DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DE236E-8948-4057-A2FE-74C35AD101DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DE236E-8948-4057-A2FE-74C35AD101DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
