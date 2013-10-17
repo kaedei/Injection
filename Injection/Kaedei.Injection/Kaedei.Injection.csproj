@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GeneralInjected.cs" />
-    <Compile Include="IInjectableExtensions.cs" />
+    <Compile Include="InjectableExtensions.cs" />
     <Compile Include="IInjectable.cs" />
     <Compile Include="InjectAttribute.cs" />
     <Compile Include="InjectionContext.cs" />
