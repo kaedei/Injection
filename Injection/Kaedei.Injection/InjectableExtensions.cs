@@ -2,7 +2,7 @@
 
 namespace Kaedei.Injection
 {
-	public static class IInjectableExtensions
+	public static class InjectableExtensions
 	{
 		/// <summary>
 		/// 执行注入操作

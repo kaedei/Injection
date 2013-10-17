@@ -41,7 +41,7 @@
   <ItemGroup>
     <Compile Include="GeneralInjected.cs" />
     <Compile Include="IInjectableExtensions.cs" />
-    <Compile Include="InjectionBase.cs" />
+    <Compile Include="IInjectable.cs" />
     <Compile Include="InjectAttribute.cs" />
     <Compile Include="InjectionContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

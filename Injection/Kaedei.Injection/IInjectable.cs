@@ -10,10 +10,4 @@ namespace Kaedei.Injection
 		/// </summary>
 		InjectionContext InjectionContext { get; set; }
 	}
-
-	//public interface IInjectable
-	//{
-	//	T GetObject<T>();
-	//	void Bind<T1, T2>(bool reusable);
-	//}
 }

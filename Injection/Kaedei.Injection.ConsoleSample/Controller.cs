@@ -2,7 +2,7 @@
 
 namespace Kaedei.Injection.ConsoleSample
 {
-	public class Controller : InjectedController
+	public class Controller : GeneralInjected
 	{
 		[Inject]
 		public IService MyService { get; set; } 
